@@ -1,0 +1,423 @@
+[
+	{
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 195.9,
+		"bottom": 1448.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 200.1,
+		"bottom": 1436.3,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 233.2,
+		"bottom": 1430.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 199.8,
+		"bottom": 1403.2,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 144.6,
+		"bottom": 1374.0,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 231.0,
+		"bottom": 1252.4,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 229.2,
+		"bottom": 1186.4,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 323.5,
+		"bottom": 1144.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 390.6,
+		"bottom": 1141.6,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 411.2,
+		"bottom": 1122.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 457.9,
+		"bottom": 1146.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 430.7,
+		"bottom": 1173.6,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 450.8,
+		"bottom": 845.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 349.8,
+		"bottom": 803.6,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 295.8,
+		"bottom": 791.6,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 204.3,
+		"bottom": 750.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 949.6,
+		"bottom": 950.4,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 863.5,
+		"bottom": 894.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 944.9,
+		"bottom": 914.2,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 947.1,
+		"bottom": 1136.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 951.6,
+		"bottom": 1163.4,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 937.0,
+		"bottom": 1169.0,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 919.3,
+		"bottom": 1228.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 863.5,
+		"bottom": 1192.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 830.9,
+		"bottom": 1188.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 805.2,
+		"bottom": 1195.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 799.8,
+		"bottom": 1212.0,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 816.8,
+		"bottom": 1291.7,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 873.1,
+		"bottom": 1355.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1005.9,
+		"bottom": 1234.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1000.9,
+		"bottom": 1201.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 952.0,
+		"bottom": 1163.6,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 919.4,
+		"bottom": 1228.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 863.0,
+		"bottom": 1193.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 830.8,
+		"bottom": 1189.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 805.0,
+		"bottom": 1196.2,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 799.9,
+		"bottom": 1211.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1164.0,
+		"bottom": 1151.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1165.1,
+		"bottom": 1184.3,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1527.2,
+		"bottom": 1036.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1546.8,
+		"bottom": 1011.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1616.5,
+		"bottom": 1158.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1572.0,
+		"bottom": 1165.3,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1470.4,
+		"bottom": 1146.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1289.5,
+		"bottom": 1175.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1454.1,
+		"bottom": 1377.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1511.5,
+		"bottom": 1433.4,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1444.1,
+		"bottom": 1493.1,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1515.6,
+		"bottom": 1640.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1573.6,
+		"bottom": 1818.0,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1602.4,
+		"bottom": 1804.2,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1669.1,
+		"bottom": 1745.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1744.2,
+		"bottom": 1694.2,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1761.6,
+		"bottom": 1683.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1700.8,
+		"bottom": 1606.3,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1582.2,
+		"bottom": 1634.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1571.6,
+		"bottom": 1655.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 1619.6,
+		"bottom": 1716.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 947.5,
+		"bottom": 1535.8,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 950.0,
+		"bottom": 1772.6,
+		"auto_adjust": true
+	}
+]

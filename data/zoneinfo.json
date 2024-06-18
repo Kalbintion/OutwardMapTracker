@@ -1,0 +1,1186 @@
+{
+	"Chersonese": {
+		"img": "AUTO",
+		"locations": [
+			{
+				"name": "Blister Burrow",
+				"realName": "Blister Burrow",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 270,
+				"top": 235
+			}, {
+				"name": "Bandit Camp",
+				"realName": "Montcalm Clan Fort",
+				"types": ["Marked", "Dungeon"],
+				"icon": "camp.png",
+				"left": 755,
+				"top": 120
+			}, {
+				"name": "Ancient Ruins",
+				"realName": "Corrupted Tombs",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"left": 1150,
+				"top": 125
+			}, {
+				"name": "Mansion's Cellar",
+				"realName": "Mansion's Cellar",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 1705,
+				"top": 95
+			}, {
+				"name": "Cabal of Wind Tower",
+				"realName": "Hermit's House",
+				"types": ["Marked", "House"],
+				"icon": "farm.png",
+				"left": 1750,
+				"top": 350
+			}, {
+				"name": "City - Cierzo",
+				"realName": "City - Cierzo",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"left": 75,
+				"top": 550
+			}, {
+				"name": "Cierzo Storage",
+				"realName": "Cierzo Storage",
+				"types": ["Unmarked", "Misc", "Image-Offset-30"],
+				"icon": "unmarked.png",
+				"left": 0,
+				"top": 850
+			}, {
+				"name": "Hyena Burrow",
+				"realName": "Hyena Burrow",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 360,
+				"top": 950
+			}, {
+				"name": "Starfish Cave",
+				"realName": "Starfish Cave",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 85,
+				"top": 1090
+			}, {
+				"name": "Trog Infiltration",
+				"realName": "Trog Infiltration",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 375,
+				"top": 1440
+			}, {
+				"name": "Vendavel Fortress",
+				"realName": "Vendavel Fortress",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 535,
+				"top": 1730
+			}, {
+				"name": "Holy Mission's Conflux Path",
+				"realName": "Holy Missions' Conflux Path",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 655,
+				"top": 1245
+			}, {
+				"name": "Heroic Kingdom's Conflux Path",
+				"realName": "Heroic Kingdom's Conflux Path",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 720,
+				"top": 1190
+			}, {
+				"name": "Blue Chamber's Conflux Path",
+				"realName": "Blue Chamber's Conflux Path",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 900,
+				"top": 1320
+			}, {
+				"name": "Conflux Mountain",
+				"realName": "Conflux Mountain",
+				"types": ["Marked", "Landmark"],
+				"icon": "mountain.png",
+				"left": 850,
+				"top": 1145
+			}, {
+				"name": "Immaculate's Cave",
+				"realName": "Immaculate's Cave",
+				"types": ["Unmarked", "House"],
+				"icon": "unmarked.png",
+				"left": 1000,
+				"top": 730
+			}, {
+				"name": "Bandit Camp",
+				"realName": "Bandits' Prison",
+				"types": ["Marked", "Dungeon"],
+				"icon": "camp.png",
+				"left": 1200,
+				"top": 1400
+			}, {
+				"name": "Ancient Ruins",
+				"realName": "Pirates' Hideout",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"left": 940,
+				"top": 1850
+			}, {
+				"name": "Ancient Ruins Entrance",
+				"realName": "Corrupted Tombs Entrance",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"left": 1280,
+				"top": 165
+			},  {
+				"name": "Ancient Ruins Entrance",
+				"realName": "Corrupted Tombs Entrance",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"left": 980,
+				"top": 140
+			}, {
+				"name": "Voltaic Hatchery",
+				"realName": "Voltaic Hatchery",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 1530,
+				"top": 1670
+			}, {
+				"name": "Vigil Pylon",
+				"realName": "Vigil Pylon",
+				"types": ["Marked", "Dungeon"],
+				"icon": "vigil_pylon.png",
+				"left": 1725,
+				"top": 1275
+			}, {
+				"name": "Fort",
+				"realName": "Ghost Pass",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 1275,
+				"top": 690
+			}, {
+				"name": "To Hallowed Marsh",
+				"realName": "To Hallowed Marsh",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_right.png",
+				"left": 1800,
+				"top": 900
+			}, {
+				"name": "To Enmerkar Forest",
+				"realName": "To Enmerkar Forest",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_right.png",
+				"left": 1850,
+				"top": 1520
+			}
+		]
+	},
+	"Enmerkar Forest": {
+		"img": "AUTO",
+		"locations": [
+			{
+				"name": "To Chersonese",
+				"realName": "To Chersonese",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_up.png",
+				"left": 215,
+				"top": 0
+			}, {
+				"name": "Lonely Tower",
+				"realName": "Dolmen Crypt",
+				"types": ["Marked", "Dungeon"],
+				"icon": "lone_tower.png",
+				"left": 380,
+				"top": 425
+			}, {
+				"name": "Fort",
+				"realName": "Ancestor's Resting Place",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 790,
+				"top": 280
+			}, {
+				"name": "",
+				"realName": "",
+				"types": ["Marked", "Misc"],
+				"icon": "lone_tower.png",
+				"left": 180,
+				"top": 650
+			}, {
+				"name": "",
+				"realName": "",
+				"types": ["Marked", "Misc"],
+				"icon": "windmill.png",
+				"left": 680,
+				"top": 390
+			}, {
+				"name": "City - Berg",
+				"realName": "City - Berg",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"right": 700,
+				"top": 550
+			}, {
+				"name": "Face of the Ancients",
+				"realName": "Face of the Ancients",
+				"types": ["Marked", "Misc"],
+				"icon": "face.png",
+				"right": 450,
+				"top": 250
+			}, {
+				"name": "To Hallowed Marsh",
+				"realName": "To Hallowed Marsh",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_up.png",
+				"right": 515,
+				"top": 100
+			}, {
+				"name": "Abandoned Docks",
+				"realName": "Abandoned Docks",
+				"types": ["Marked", "Misc"],
+				"icon": "ship.png",
+				"left": 1000,
+				"top": 800
+			}, {
+				"name": "To Abrassar",
+				"realName": "To Abrassar",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_right.png",
+				"right": 0,
+				"top": 850
+			}, {
+				"name": "Ruins",
+				"realName": "",
+				"types": ["Marked", "Misc"],
+				"icon": "ruins.png",
+				"top": 1030,
+				"left": 525
+			}, {
+				"name": "Ruins",
+				"realName": "",
+				"types": ["Marked", "Misc"],
+				"icon": "ruins.png",
+				"top": 1075,
+				"right": 825
+			}, {
+				"name": "Vigil Pylon",
+				"realName": "Vigil Pylon",
+				"types": ["Marked", "Misc"],
+				"icon": "vigil_pylon.png",
+				"top": 1150,
+				"right": 310
+			}, {
+				"name": "Forest Hives",
+				"realName": "Forest Hives",
+				"types": ["Marked", "Dungeon"],
+				"icon": "hive.png",
+				"bottom": 470,
+				"right": 420
+			}, {
+				"name": "Forest Hives",
+				"realName": "Exterior",
+				"types": ["Marked", "Dungeon"],
+				"icon": "hive.png",
+				"bottom": 275,
+				"right": 200
+			}, {
+				"name": "Burning Tree",
+				"realName": "Burning Tree",
+				"types": ["Marked"],
+				"icon": "tree.png",
+				"bottom": 250,
+				"left": 1030
+			}, {
+				"name": "Bandit Camp",
+				"realName": "Burnt Outpost",
+				"types": ["Marked", "House", "Dungeon"],
+				"icon": "camp.png",
+				"bottom": 50,
+				"left": 900
+			}, {
+				"name": "Cabal of Wind Temple",
+				"realName": "Cabal of Wind Temple",
+				"types": ["Marked"],
+				"icon": "temple.png",
+				"bottom": 615,
+				"left": 510
+			}, {
+				"name": "",
+				"realName": "",
+				"types": ["Marked", "Misc"],
+				"icon": "windmill.png",
+				"bottom": 320,
+				"left": 500
+			}, {
+				"name": "Worn Hunter's Cabin",
+				"realName": "Worn Hunter's Cabin",
+				"types": ["Unmarked", "Dungeon", "House"],
+				"icon": "unmarked.png",
+				"top": 772,
+				"left": 223
+			}, {
+				"name": "Damp Hunter's Cabin",
+				"realName": "Damp Hunter's Cabin",
+				"types": ["Unmarked", "Dungeon", "House"],
+				"icon": "unmarked.png",
+				"top": 865,
+				"left": 25
+			}, {
+				"name": "Royal Manticore's Lair",
+				"realName": "Royal Manticore's Lair",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 480,
+				"left": 190
+			}, {
+				"name": "Tree Husk",
+				"realName": "Tree Husk",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"top": 1060,
+				"left": 850
+			}, {
+				"name": "Hive's Trap",
+				"realName": "Hive's Trap",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 700,
+				"right": 573
+			}, {
+				"name": "",
+				"realName": "",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 700,
+				"right": 475
+			}, {
+				"name": "",
+				"realName": "",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 300,
+				"right": 350
+			}, {
+				"name": "",
+				"realName": "",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 450,
+				"right": 350
+			}, {
+				"name": "Immaculate's Cave",
+				"realName": "Immaculate's Cave",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 75,
+				"left": 450
+			}, {
+				"name": "Ruins",
+				"realName": "Ruins",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"bottom": 425,
+				"right": 725
+			}, {
+				"name": "Ruins",
+				"realName": "Ruins",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"bottom": 200,
+				"right": 550
+			}, {
+				"name": "Old Hunter's Cabin",
+				"realName": "Old Hunter's Cabin",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"bottom": 485,
+				"right": 697
+			}, {
+				"name": "To Caldera",
+				"realName": "To Caldera",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_down.png",
+				"bottom": 0,
+				"right": 530
+			}
+		]
+	},
+	"Abrassar": {
+		"img": "AUTO",
+		"locations": [
+			{
+				"name": "Vigil Pylon",
+				"realName": "Corsair's Headquarters",
+				"types": ["Marked", "Dungeon"],
+				"icon": "vigil_pylon.png",
+				"left": 90,
+				"top": 570
+			}, {
+				"name": "Ruins of Old Levant",
+				"realName": "Ruins of Old Levant",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 225,
+				"top": 610
+			}, {
+				"name": "Abandoned Docks",
+				"realName": "Dock's Storage",
+				"types": ["Marked", "Misc"],
+				"icon": "ruins.png",
+				"left": 700,
+				"top": 400
+			}, {
+				"name": "The Slide",
+				"realName": "The Slide",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 330,
+				"top": 1050
+			}, {
+				"name": "The Slide",
+				"realName": "The Slide",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 625,
+				"top": 550
+			}, {
+				"name": "Parched Shipwrecks",
+				"realName": "Parched Shipwrecks",
+				"types": ["Marked", "Misc"],
+				"icon": "ship.png",
+				"left": 875,
+				"top": 630
+			}, {
+				"name": "Cabal of Wind Tower",
+				"realName": "Cabal of Wind Outpost",
+				"types": ["Marked", "Dungeon"],
+				"icon": "farm.png",
+				"right": 900,
+				"top": 450
+			}, {
+				"name": "Fort",
+				"realName": "Electric Lab",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"right": 390,
+				"top": 570
+			}, {
+				"name": "The Walled Garden",
+				"realName": "The Walled Garden",
+				"types": ["Marked", "Misc"],
+				"icon": "garden.png",
+				"right": 750,
+				"top": 750
+			}, {
+				"name": "Stone Titan Caves",
+				"realName": "Stone Titan Caves",
+				"types": ["Marked", "Dungeon"],
+				"icon": "face.png",
+				"left": 600,
+				"top": 875
+			}, {
+				"name": "",
+				"realName": "Unmarked Entrance 1",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 420,
+				"top": 805
+			}, {
+				"name": "",
+				"realName": "Unmarked Entrance 2",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 635,
+				"top": 790
+			}, {
+				"name": "The Slide",
+				"realName": "The Slide",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 855,
+				"top": 425
+			}, {
+				"name": "Stone Titan Caves",
+				"realName": "Stone Titan Caves Entrance",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 800,
+				"top": 1125
+			}, {
+				"name": "Nomad's Oasis",
+				"realName": "Nomad's Oasis",
+				"types": ["Marked", "Misc"],
+				"icon": "oasis.png",
+				"left": 385,
+				"bottom": 600
+			}, {
+				"name": "To Enmerkar Forest",
+				"realName": "To Enmerkar Forest",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_left.png",
+				"left": 90,
+				"top": 1020
+			}, {
+				"name": "To Enmerkar Forest",
+				"realName": "To Enmerkar Forest",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_down.png",
+				"left": 300,
+				"bottom": 275
+			}, {
+				"name": "River's End",
+				"realName": "River's End",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 860,
+				"top": 240
+			}, {
+				"name": "City - Levant",
+				"realName": "City - Levant",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"right": 300,
+				"bottom": 760
+			}, {
+				"name": "Undercity Passage",
+				"realName": "Undercity Passage",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 355,
+				"bottom": 575
+			}, {
+				"name": "Ancient Ruins",
+				"realName": "Ruined Outpost",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"right": 725,
+				"bottom": 460
+			}, {
+				"name": "Sand Rose Cave",
+				"realName": "Sand Rose Cave",
+				"types": ["Marked", "Dungeon"],
+				"icon": "cave.png",
+				"right": 250,
+				"bottom": 250
+			}, {
+				"name": "Hive Prison",
+				"realName": "Hive Prison",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 875,
+				"bottom": 460
+			}, {
+				"name": "Immaculate's Camp",
+				"realName": "Immaculate's Camp",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"left": 1025,
+				"bottom": 450
+			}, {
+				"name": "Colossal Hive",
+				"realName": "Ancient Hive",
+				"types": ["Marked", "Dungeon"],
+				"icon": "hive.png",
+				"left": 950,
+				"bottom": 210
+			}
+		]
+	},
+	"Hallowed Marsh": {
+		"img": "AUTO",
+		"locations": [
+			{
+				"name": "City - Monsoon",
+				"realName": "City - Monsoon",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"left": 890,
+				"top": 130
+			}, {
+				"name": "Vigil Pylon",
+				"realName": "Vigil Pylon",
+				"types": ["Marked", "Misc"],
+				"icon": "vigil_pylon.png",
+				"left": 1090,
+				"top": 190
+			}, {
+				"name": "Old Windmill",
+				"realName": "Abandoned Shed",
+				"types": ["Marked", "Dungeon"],
+				"icon": "windmill.png",
+				"left": 696,
+				"top": 335
+			}, {
+				"name": "City - Giants' Village",
+				"realName": "City - Giants' Village",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"right": 250,
+				"top": 460
+			}, {
+				"name": "Hollowed Lotus",
+				"realName": "Hollowed Lotus",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 950,
+				"top": 425
+			}, {
+				"name": "Huge Tree",
+				"realName": "Dead Roots",
+				"types": ["Marked", "Dungeon"],
+				"icon": "tree.png",
+				"left": 325,
+				"top": 650
+			}, {
+				"name": "Huge Tree",
+				"realName": "Reptilian Lair",
+				"types": ["Marked", "Dungeon"],
+				"icon": "tree.png",
+				"left": 1010,
+				"top": 790
+			}, {
+				"name": "Giants' Ruins",
+				"realName": "Under Island",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"right": 335,
+				"top": 825
+			}, {
+				"name": "Reptilian Lair",
+				"realName": "Reptilian Lair (Exit)",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 975,
+				"top": 1000
+			}, {
+				"name": "Dark Ziggurat",
+				"realName": "Dark Ziggurat",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ziggurat.png",
+				"left": 210,
+				"bottom": 885
+			}, {
+				"name": "Ancient Ruins",
+				"realName": "Flooded Cellar",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"left": 710,
+				"bottom": 710
+			}, {
+				"name": "Cabal of Wind Tower",
+				"realName": "Cabal of Wind Tower",
+				"types": ["Marked", "Misc"],
+				"icon": "farm.png",
+				"left": 375,
+				"bottom": 445
+			}, {
+				"name": "To Chersonese",
+				"realName": "To Chersonese",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_down.png",
+				"left": 150,
+				"bottom": 150
+			}, {
+				"name": "Jade Quarry",
+				"realName": "Jade Quarry",
+				"types": ["Marked", "Dungeon"],
+				"icon": "cave.png",
+				"left": 575,
+				"bottom": 225
+			}, {
+				"name": "Abandoned Ziggurat",
+				"realName": "Abandoned Ziggurat",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ziggurat.png",
+				"left": 775,
+				"bottom": 500
+			}, {
+				"name": "Steakosaur's Burrow",
+				"realName": "Steakosaur's Burrow",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 1000,
+				"bottom": 495
+			}, {
+				"name": "Immaculate's Camp",
+				"realName": "Immaculate's Camp",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"left": 1035,
+				"bottom": 280
+			}, {
+				"name": "Ziggurat Passage",
+				"realName": "Ziggurat Passage",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ziggurat.png",
+				"right": 245,
+				"bottom": 810
+			}, {
+				"name": "",
+				"realName": "Ziggurat Passage Entrance",
+				"types": ["Unmarked", "Dungeon", "Transition"],
+				"icon": "unmarked.png",
+				"right": 275,
+				"bottom": 820
+			}, {
+				"name": "",
+				"realName": "Ziggurat Passage Entrance 2",
+				"types": ["Unmarked", "Dungeon", "Transition"],
+				"icon": "unmarked.png",
+				"right": 130,
+				"bottom": 650
+			}, {
+				"name": "Spire of Light",
+				"realName": "Spire of Light",
+				"types": ["Marked", "Dungeon"],
+				"icon": "spire.png",
+				"right": 430,
+				"bottom": 250
+			}, {
+				"name": "To Enmerkar Forest",
+				"realName": "To Enmerkar Forest",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_right.png",
+				"right": 0,
+				"bottom": 450
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 1",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 940,
+				"top": 360
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 2",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 900,
+				"top": 540
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 3",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 820,
+				"top": 700
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 4",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 820,
+				"top": 900
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 5",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 790,
+				"bottom": 860
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 6",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 525,
+				"bottom": 525
+			}, {
+				"name": "Pilgrim Road",
+				"realName": "Pillar 7",
+				"types": ["Marked", "Misc"],
+				"icon": "sunpath.png",
+				"left": 275,
+				"bottom": 300
+			}
+		]
+	},
+	"Antique Plateau": {
+		"img": "AUTO",
+		"locations": [
+			{
+				"name": "Ancient Bunker",
+				"realName": "Abandoned Living Quarters",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 120,
+				"top": 150
+			}, {
+				"name": "Duvernay Plaza",
+				"realName": "Duvernay Plaza",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"left": 175,
+				"top": 590
+			}, {
+				"name": "Kazite Bandit Camp",
+				"realName": "Kazite Bandit Camp",
+				"types": ["Marked", "Dungeon"],
+				"icon": "camp.png",
+				"left": 270,
+				"top": 870
+			}, {
+				"name": "Wolfgang Mercenary Camp",
+				"realName": "Wolfgang Mercenary Camp",
+				"types": ["Marked"],
+				"icon": "camp.png",
+				"left": 70,
+				"bottom": 650
+			}, {
+				"name": "Abandoned Fortress",
+				"realName": "Compromised Mana Transfer Station",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 355,
+				"bottom": 300
+			}, {
+				"name": "Blood Mage Hideout",
+				"realName": "Blood Mage Hideout",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 215,
+				"bottom": 60
+			}, {
+				"name": "Immaculate's Camp",
+				"realName": "",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"left": 575,
+				"top": 710
+			}, {
+				"name": "Ancient Graveyard",
+				"realName": "Ancient Graveyard",
+				"types": ["Marked", "Dungeon"],
+				"icon": "skull.png",
+				"left": 595,
+				"top": 865
+			}, {
+				"name": "Harmattan City",
+				"realName": "Harmattan City",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"left": 1010,
+				"top": 450
+			}, {
+				"name": "Abandoned Storage",
+				"realName": "Abandoned Storage",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 745,
+				"top": 610
+			}, {
+				"name": "Ruined Hippodrome",
+				"realName": "Ancient Foundry",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"right": 570,
+				"top": 610
+			}, {
+				"name": "Old Harmattan Basement",
+				"realName": "",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 710,
+				"top": 110
+			}, {
+				"name": "Corrupted Cave",
+				"realName": "",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 280,
+				"top": 125
+			}, {
+				"name": "Isolated Windmill",
+				"realName": "Isolated Windmill",
+				"types": ["Marked", "Misc"],
+				"icon": "windmill.png",
+				"right": 80,
+				"top": 250
+			}, {
+				"name": "Fourwinds Manor",
+				"realName": "Fourwinds Manor",
+				"types": ["Marked", "Misc"],
+				"icon": "empty.png",
+				"right": 90,
+				"top": 480
+			}, {
+				"name": "Bandit Hideout",
+				"realName": "Bandit Hideout",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 300,
+				"top": 630
+			}, {
+				"name": "Old Theatre's Bridge",
+				"realName": "Old threatre's Bridge",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"right": 235,
+				"top": 910
+			}, {
+				"name": "Lost Golem Manufacturing Facility",
+				"realName": "Lost Golem Manufacturing Facility",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 80,
+				"top": 920
+			}, {
+				"name": "Cabal of Winds Temple",
+				"realName": "Cabal of Winds Temple",
+				"types": ["Marked", "Misc"],
+				"icon": "ruins.png",
+				"right": 380,
+				"bottom":  610
+			}, {
+				"name": "Downtown Clock",
+				"realName": "Downtown Clock",
+				"types": ["Marked", "Misc"],
+				"icon": "lone_tower.png",
+				"left": 990,
+				"top": 1000
+			}, {
+				"name": "Sealed Warehouse",
+				"realName": "Ruined Warehouse",
+				"types": ["Marked", "Dungeon"],
+				"icon": "empty.png",
+				"left": 865,
+				"bottom": 775
+			}, {
+				"name": "Wendigo Lair",
+				"realName": "Wendigo Lair",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 945,
+				"bottom": 415
+			}, {
+				"name": "Vigil Pylon",
+				"realName": "Crumbling Loading Docks",
+				"types": ["Marked", "Dungeon"],
+				"icon": "vigil_pylon.png",
+				"left": 943,
+				"bottom": 170
+			}, {
+				"name": "Troglodyte Warren",
+				"realName": "Troglodyte Warren",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 70,
+				"bottom": 330
+			}, {
+				"name": "Destroyed Test Chambers",
+				"realName": "Destroyed Test Chambers",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 500,
+				"bottom": 0
+			}, {
+				"name": "Ancient Turbine",
+				"realName": "Ancient Turbine",
+				"types": ["Marked", "Dungeon"],
+				"icon": "empty.png",
+				"right": 165,
+				"bottom": 0
+			}
+		]
+	},
+	"Caldera": {
+		"img": "AUTO",
+		"locations": [
+			{
+				"name": "Giant's Sauna",
+				"realName": "Giant's Sauna",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"left": 750,
+				"top": 180
+			}, {
+				"name": "Giant's Sauna",
+				"realName": "Giant's Sauna Entrance",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 650,
+				"top": 160
+			}, {
+				"name": "Silkworm's Refuge",
+				"realName": "Silkworm's Refuge",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 810,
+				"top": 200
+			}, {
+				"name": "To Enmerkar Forest",
+				"realName": "To Enmerkar Forest",
+				"types": ["Marked", "Transition"],
+				"icon": "arrow_up.png",
+				"right": 795,
+				"top": 0
+			}, {
+				"name": "Underside Loading Dock",
+				"realName": "Undersite Loading Dock",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"right": 660,
+				"top": 250
+			}, {
+				"name": "Oil Refinery",
+				"realName": "Oil Refinery",
+				"types": ["Marked", "Dungeon"],
+				"icon": "fort.png",
+				"right": 570,
+				"top": 360
+			}, {
+				"name": "Immaculate's Refuge",
+				"realName": "Immaculate's Refuge",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"right": 70,
+				"top": 240
+			}, {
+				"name": "The Vault of Stone",
+				"realName": "The Vault of Stone",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 25,
+				"top": 385
+			}, {
+				"name": "Refinery Outflow Pipe",
+				"realName": "Refinery Outflow Pipe",
+				"types": ["Marked", "Dungeon"],
+				"icon": "outflow.png",
+				"right": 245,
+				"top": 490
+			}, {
+				"name": "Vigil Pylon",
+				"realName": "Vigil Pylon",
+				"types": ["Marked", "Misc"],
+				"icon": "vigil_pylon.png",
+				"right": 160,
+				"top": 715
+			}, {
+				"name": "Oily Cavern",
+				"realName": "Oily Cavern",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 110,
+				"top": 690
+			}, {
+				"name": "Sulphuric Chimneys",
+				"realName": "Sulphuric Caverns",
+				"types": ["Marked", "Dungeon"],
+				"icon": "cave.png",
+				"left": 900,
+				"top": 450
+			}, {
+				"name": "Myrmitaur's Haven Exterior",
+				"realName": "Myrmitaur's Haven Exterior",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 225,
+				"top": 650
+			}, {
+				"name": "Myrmitaur's Hives",
+				"realName": "Myrmitaur's Haven",
+				"types": ["Marked", "Dungeon"],
+				"icon": "cave.png",
+				"left": 400,
+				"top": 850
+			}, {
+				"name": "Smouldering Crater",
+				"realName": "Scarlet Sanctuary",
+				"types": ["Marked", "Dungeon"],
+				"icon": "mountain.png",
+				"left": 875,
+				"top": 725
+			}, {
+				"name": "Steam Bath Tunnels",
+				"realName": "Steam Bath Tunnels",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 180,
+				"top": 900
+			}, {
+				"name": "Myrmitaur's Haven",
+				"realName": "Myrmitaur's Haven",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 280,
+				"bottom": 850
+			}, {
+				"name": "Cabal of Winds Pillar",
+				"realName": "Cabal of Winds Pillar",
+				"types": ["Marked", "Misc"],
+				"icon": "farm.png",
+				"left": 500,
+				"bottom": 800
+			}, {
+				"name": "Ritualist's Hut",
+				"realName": "Ritualist's Hut",
+				"types": ["Unmarked", "Misc"],
+				"icon": "unmarked.png",
+				"left": 500,
+				"bottom": 800
+			}, {
+				"name": "Ruined Village",
+				"realName": "Ruined Village",
+				"types": ["Marked", "Dungeon"],
+				"icon": "camp.png",
+				"left": 850,
+				"bottom": 800
+			}, {
+				"name": "Calygrey Isle",
+				"realName": "Calygrey Colosseum",
+				"types": ["Marked", "Dungeon"],
+				"icon": "calygrey.png",
+				"left": 290,
+				"bottom": 450
+			}, {
+				"name": "The Tower of Regrets",
+				"realName": "The Tower of Regrets",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 510,
+				"bottom": 520
+			}, {
+				"name": "The Grotto of Chalcedony",
+				"realName": "The Grotto of Chalcedony",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 520,
+				"bottom": 490
+			}, {
+				"name": "New Sirocco",
+				"realName": "New Sirocco",
+				"types": ["Marked", "City"],
+				"icon": "city.png",
+				"right": 280,
+				"bottom": 670
+			}, {
+				"name": "The River of Red",
+				"realName": "The River of Red",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"right": 325,
+				"bottom": 425
+			}, {
+				"name": "Old Sirocco",
+				"realName": "Old Sirocco",
+				"types": ["Marked", "Dungeon"],
+				"icon": "ruins.png",
+				"right": 570,
+				"bottom": 150
+			}, {
+				"name": "Old Sirocco",
+				"realName": "Old Sirocco",
+				"types": ["Unmarked", "Dungeon"],
+				"icon": "unmarked.png",
+				"left": 930,
+				"bottom": 0
+			}
+		]
+	}
+}

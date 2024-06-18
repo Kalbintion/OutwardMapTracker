@@ -1,0 +1,129 @@
+[
+	{
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 595.0,
+		"bottom": 1197.0,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 270.5,
+		"bottom": 781.5,
+		"auto_adjust": true
+	}, {
+		"name": "Hollowed Trunk",
+		"icon": "hollowed_trunk.png",
+		"types": ["Unmarked", "Chest", "Tree Chest"],
+		"left": 250.0,
+		"bottom": 756.8,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 984.9,
+		"bottom": 234.2,
+		"auto_adjust": true
+	}, {
+		"name": "Adventurer's Corpse",
+		"icon": "adventurer.png",
+		"types": ["Unmarked", "Adventurer"],
+		"left": 901.8,
+		"bottom": 839.3,
+		"auto_adjust": true
+	}, {
+		"name": "Adventurer's Corpse",
+		"icon": "adventurer.png",
+		"types": ["Unmarked", "Adventurer"],
+		"left": 790.9,
+		"bottom": 1283.1,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 1084.6,
+		"bottom": 1150.4,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 1440.8,
+		"bottom": 1026.5,
+		"auto_adjust": true
+	}, {
+		"name": "Hollowed Trunk",
+		"icon": "hollowed_trunk.png",
+		"types": ["Unmarked", "Chest", "Tree Chest"],
+		"left": 1546.0,
+		"bottom": 1065.2,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 1517.6,
+		"bottom": 1152.8,
+		"auto_adjust": true
+	}, {
+		"name": "Chest",
+		"icon": "chest.png",
+		"types": ["Unmarked", "Chest"],
+		"left": 1290.4,
+		"bottom": 1222.1,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 1315.9,
+		"bottom": 1289.2,
+		"auto_adjust": true
+	}, {
+		"name": "Chest",
+		"icon": "chest.png",
+		"types": ["Unmarked", "Chest"],
+		"left": 1362.8,
+		"bottom": 1363.5,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 1397.4,
+		"bottom": 1811.3,
+		"auto_adjust": true
+	}, {
+		"name": "Chest",
+		"icon": "chest.png",
+		"types": ["Unmarked", "Chest"],
+		"left": 1362.4,
+		"bottom": 1803.0,
+		"auto_adjust": true
+	}, {
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"left": 1587.5,
+		"bottom": 1716.6,
+		"auto_adjust": true
+	}, {
+		"name": "Hollowed Trunk",
+		"icon": "hollowed_trunk.png",
+		"types": ["Unmarked", "Chest", "Tree Chest"],
+		"left": 967.6,
+		"bottom": 1549.0,
+		"auto_adjust": true
+	}, {
+		"name": "Hollowed Trunk",
+		"icon": "hollowed_trunk.png",
+		"types": ["Unmarked", "Chest", "Tree Chest"],
+		"left": 772.0,
+		"bottom": 1732.1,
+		"auto_adjust": true
+	}
+]

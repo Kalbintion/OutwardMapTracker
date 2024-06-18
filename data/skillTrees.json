@@ -1,0 +1,77 @@
+[{
+        "name": "Cabal Hermit",
+        "img": "AUTO",
+        "npc": "Adalbert",
+        "loc": "Chersonese"
+    }, {
+        "name": "Kazite Spellblade",
+        "img": "AUTO",
+        "npc": "Eto Akiyuki",
+        "loc": "Cierzo"
+    }, {
+        "name": "Mercenary",
+        "img": "AUTO",
+        "npc": "Jaimon",
+        "loc": "Levant"
+    }, {
+        "name": "Philosopher",
+        "img": "AUTO",
+        "npc": "Alemmon",
+        "loc": "Monsoon"
+    }, {
+        "name": "Rogue Engineer",
+        "img": "AUTO",
+        "npc": "Styx",
+        "loc": "Levant"
+    }, {
+        "name": "Rune Sage",
+        "img": "AUTO",
+        "npc": "Flase",
+        "loc": "Berg"
+    }, {
+        "name": "Warrior Monk",
+        "img": "AUTO",
+        "npc": "Galira",
+        "loc": "Monsoon"
+    }, {
+        "name": "Wild Hunter",
+        "img": "AUTO",
+        "npc": "Ture",
+        "loc": "Berg"
+    }, {
+        "name": "Hex Mage",
+        "img": "AUTO",
+        "npc": "Ella Lockwell",
+        "loc": "Harmattan"
+    }, {
+        "name": "The Speedster",
+        "img": "AUTO",
+        "npc": "Serge",
+        "loc": "Harmattan"
+    }, {
+        "name": "Primal Ritualist",
+        "img": "AUTO",
+        "npc": "Sinai",
+        "loc": "Ritualist's Hut"
+    }, {
+        "name": "Weapon Master",
+        "img": "AUTO",
+        "npc": "Bea Battleborn",
+        "loc": "New Sirocco"
+    }, {
+        "name": "Specialist",
+        "img": "AUTO",
+        "npc": "Justin Garnet",
+        "loc": "New Sirocco"
+    }, {
+		"name": "Quests Active",
+		"img": "AUTO",
+		"npc": "Misc",
+		"loc": "Misc"
+	}, {
+		"name": "Quests Passive",
+		"img": "AUTO",
+		"npc": "Misc",
+		"loc": "Misc"
+	}
+]

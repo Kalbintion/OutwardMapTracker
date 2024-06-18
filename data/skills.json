@@ -1,0 +1,1770 @@
+{
+    "Cabal Hermit": [{
+            "tier": 1,
+            "slot": 1,
+            "row": 1,
+            "name": "Reveal Soul",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "mana": 5
+            },
+            "cooldown": 5,
+            "description": "Reveal the blueish soul orb left by deceased thieves and adventurers.\nCertain spells must be cast within proximity of a soul."
+        }, {
+            "tier": 1,
+            "slot": 2,
+            "row": 1,
+            "name": "Call to Elements",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "mana": 5
+            },
+            "cooldown": 120,
+            "description": "Grants you a boon that varies according to your location when casting this spell."
+        }, {
+            "tier": 1,
+            "slot": 3,
+            "row": 1,
+            "name": "Mana Push",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "mana": 5
+            },
+            "cooldown": 15,
+            "description": "Spell which inflicts no damage but has High Impact in a wide area in front of the caster.\nCan be combined with other spells for powerful effects."
+        }, {
+            "tier": 1,
+            "slot": 2,
+            "row": 2,
+            "name": "Weather Tolerance",
+            "img": "AUTO",
+            "costs": {
+                "silver": 100
+            },
+            "cooldown": -1,
+            "description": "Increases your Hot and Cold Weather Defense by 8.\nIncreases your Decay Resistance by 5.",
+            "requires": ["Call to Elements"],
+			"bonuses": {
+				"cold": 8,
+				"hot": 8,
+				"decay": 5
+			}
+        }, {
+            "tier": 2,
+            "slot": 2,
+            "row": 1,
+            "name": "Shamanic Resonance",
+            "img": "AUTO",
+            "costs": {
+                "silver": 500,
+                "breakthrough": 1
+            },
+            "cooldown": -1,
+            "description": "The effects of boons on you are increased.\nFor example, a boon that increases your Fire Resistance by 20 would increase it by 30 instead.",
+            "is_breakthrough": true
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 1,
+            "name": "Sigil of Wind",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 10
+            },
+            "cooldown": 100,
+            "description": "Required: Activated Wind Altar.\nCreate a magic circle on the ground. Certain skills have additional effects when cast within this circle.",
+            "exclusive": ["Infuse Wind"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 1,
+            "name": "Infuse Wind",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 15
+            },
+            "cooldown": 240,
+            "description": "Required: Activated Wind Altar.\nIncreases the Impact and Attack Speed of your melee weapon for 3 minutes.\nYour stamina burn increases more quickly, however.",
+            "exclusive": ["Sigil of Wind"]
+        }, {
+            "tier": 3,
+            "slot": 2,
+            "row": 2,
+            "name": "Conjure",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 10
+            },
+            "cooldown": 8,
+            "description": "Spell which does nothing on its own, but can be combined with other abilites."
+        }
+    ],
+    "Kazite Spellblade": [{
+            "tier": 1,
+            "slot": 1,
+            "row": 1,
+            "name": "Steady Arm",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50
+            },
+            "cooldown": -1,
+            "description": "Increases Impact Resistance by 10 while you are blocking.",
+			"bonuses": {
+				"impact": 10
+			}
+        }, {
+            "tier": 1,
+            "slot": 1,
+            "row": 2,
+            "name": "Shield Charge",
+            "img": "AUTO",
+            "costs": {
+                "silver": 100,
+                "stamina": 15
+            },
+            "cooldown": 30,
+            "description": "Required: Shield\nRush forward to hit foes with your shield for high Impact. Can hit the target twice.",
+            "requires": ["Steady Arm"]
+        }, {
+            "tier": 1,
+            "slot": 3,
+            "row": 1,
+            "name": "Fitness",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50
+            },
+            "cooldown": -1,
+            "description": "Increases your maximum Health by 25 and the amount of Health you restore while sleeping by 20%",
+			"bonuses": {
+				"health": 25
+			}
+        }, {
+            "tier": 2,
+            "slot": 2,
+            "row": 1,
+            "name": "Spellblade's Awakening",
+            "img": "AUTO",
+            "costs": {
+                "silver": 500,
+                "breakthrough": 1
+            },
+            "cooldown": -1,
+            "description": "Increases your maximum Health, Stamina and Mana by 15 each",
+            "is_breakthrough": true,
+			"bonuses": {
+				"health": 15,
+				"stamina": 15,
+				"mana": 15
+			}
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 1,
+            "name": "Infuse Fire",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 15
+            },
+            "cooldown": 0,
+            "description": "Temporarily adds fire damage to your melee weapon and inflicts Burning on enemies. Consumes your Warm boon.",
+            "exclusive": ["Infuse Frost"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 1,
+            "name": "Infuse Frost",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 15
+            },
+            "cooldown": 0,
+            "description": "Temporarily adds ice damage to your melee weapon and inflicts Slow Down on enemies. Consumes your Cool boon.",
+            "exclusive": ["Infuse Fire"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 2,
+            "name": "Gong Strike",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "stamina": 11
+            },
+            "cooldown": 30,
+            "description": "Strike your weapon on your shield, removing the elemental infusion to make an explosion of that element.",
+            "exclusive": ["Elemental Discharge"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 2,
+            "name": "Elemental Discharge",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 15
+            },
+            "cooldown": 10,
+            "description": "Required: Infused Weapon\nShoot a projectile of the element that is infused on your weapon.",
+            "exclusive": ["Gong Strike"]
+        }
+    ],
+    "Mercenary": [{
+            "tier": 1,
+            "slot": 1,
+            "row": 1,
+            "name": "Shatter Bullet",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "other": "Iron Scrap"
+            },
+            "cooldown": 5,
+            "description": "Required: Pistol, Iron Scraps\nLoad a bullet with high Impact which also inflicts Pain\nShooting it requires the use of the Fire/Reload skill."
+        }, {
+            "tier": 1,
+            "slot": 1,
+            "row": 2,
+            "name": "Frost Bullet",
+            "img": "AUTO",
+            "costs": {
+                "silver": 100,
+                "other": "Cool"
+            },
+            "cooldown": 5,
+            "description": "Required: Pistol, Cool Boon\nLoad the pistol with a bullet that makes a short-distance blast which slows enemies. Removes your Cool boon.\nShooting it requires use of the Fire/Reload skill.",
+            "requires": ["Shatter Bullet"]
+        }, {
+            "tier": 1,
+            "slot": 3,
+            "row": 1,
+            "name": "Fast Maintenance",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50
+            },
+            "cooldown": -1,
+            "description": "You repair your equipment 50% faster when you allocate time to Repairing in the rest menu."
+        }, {
+            "tier": 1,
+            "slot": 3,
+            "row": 2,
+            "name": "Armor Training",
+            "img": "AUTO",
+            "costs": {
+                "silver": 100
+            },
+            "cooldown": -1,
+            "description": "Decreases the stamina and movement penalties from wearing armor by 50%.",
+            "requires": ["Fast Maintenance"]
+        }, {
+            "tier": 2,
+            "slot": 1,
+            "row": 1,
+            "name": "Swift Foot",
+            "img": "AUTO",
+            "costs": {
+                "silver": 500,
+                "breakthrough": 1
+            },
+            "cooldown": -1,
+            "description": "Your movement speed is increased by 10%",
+            "is_breakthrough": true,
+			"bonuses": {
+				"speed": 10
+			}
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 1,
+            "name": "Marathoner",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600
+            },
+            "cooldown": -1,
+            "description": "Sprinting consumes 40% less stamina."
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 2,
+            "name": "Shield Infusion",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "stamina": 5
+            },
+            "cooldown": 60,
+            "description": "Block an elemental attack. When you next block, an elemental explosion will burst from you.",
+            "exclusive": ["Blood Bullet"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 2,
+            "name": "Blood Bullet",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 12
+            },
+            "cooldown": 30,
+            "description": "Required: Pistol, Possessed Boon\nAbsorb the enemy's life into your pistol as a blood bullet, healing yourself.\nShooting it requires the use of the Fire/Reload skill.",
+            "exclusive": ["Shield Infusion"]
+        }
+    ],
+    "Philosopher": [{
+            "tier": 1,
+            "slot": 1,
+            "row": 1,
+            "name": "Chakram Pierce",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "mana": 5
+            },
+            "cooldown": 6,
+            "description": "Required: Chakram, Discipline Boon.\nLaunch the disc forward, possibly hitting the enemy twice. Discipline is required to cast this spell."
+        }, {
+            "tier": 1,
+            "slot": 1,
+            "row": 2,
+            "name": "Chakram Arc",
+            "img": "AUTO",
+            "costs": {
+                "silver": 100,
+                "mana": 8
+            },
+            "cooldown": 12,
+            "description": "Required:Chakram, Discipline Boon.\nThe disc sweeps the area in front of the caster, dealing high Damage and Impact. Discipline is required to cast this spell.",
+            "requires": ["Chakram Pierce"]
+        }, {
+            "tier": 1,
+            "slot": 2,
+            "row": 1,
+            "name": "Sigil of Fire",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "mana": 7
+            },
+            "cooldown": 0,
+            "description": "Consumes: Fire Stone\nCreate a magic circle on the ground. Certain skills have additional effects when cast within this circle."
+        }, {
+            "tier": 1,
+            "slot": 3,
+            "row": 1,
+            "name": "Mana Ward",
+            "img": "AUTO",
+            "costs": {
+                "silver": 50,
+                "mana": 7
+            },
+            "cooldown": 20,
+            "description": "Envelops you in Mana and, for an instant, you become immune to Damage.\nCan be combined with other spells for powerful effects."
+        }, {
+            "tier": 2,
+            "slot": 1,
+            "row": 1,
+            "name": "Leyline Connection",
+            "img": "AUTO",
+            "costs": {
+                "silver": 500,
+                "breakthrough": 1
+            },
+            "cooldown": -1,
+            "description": "You regain 0.34 mana per second.\nThis is a constant effect",
+            "is_breakthrough": true
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 1,
+            "name": "Chakram Dance",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 20
+            },
+            "cooldown": 120,
+            "description": "Required: Chakram, Discipline Boon.\nThe disc sways left and right as it advances, hitting multiple times and dealing high damage. Discipline is required to cast this spell",
+            "requires": ["Chakram Arc"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 2,
+            "name": "Sigil of Ice",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600,
+                "mana": 7
+            },
+            "cooldown": 0,
+            "description": "Consumes: Cold Stone\nCreate a magic circle on the ground. Certain skills have additional effects when cast within this circle.",
+            "exclusive": ["Fire Affinity"]
+        }, {
+            "tier": 3,
+            "slot": 1,
+            "row": 2,
+            "name": "Fire Affinity",
+            "img": "AUTO",
+            "costs": {
+                "silver": 600
+            },
+            "cooldown": -1,
+            "description": "Increase your resistance to Fire by 20% and the Fire damage you inflict is increased by 15%.",
+            "exclusive": ["Sigil of Ice"]
+        }
+    ],
+	"Rogue Engineer": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Backstab",
+			"img": "AUTO",
+			"costs": {
+				"silver": 50,
+				"stamina": 5
+			},
+			"cooldown": 15,
+			"description": "Required: Dagger\nDagger attack. If the attack hits the enemy's back, the damage and impact are tripled."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Sweep Kick",
+			"img": "AUTO",
+			"costs": {
+				"silver": 50,
+				"stamina": 12
+			},
+			"cooldown": 15,
+			"description": "Weak attack with wide arc of effect and high impact. Will knock down a target afflicted by Confusion status effect."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Pressure Plate Training",
+			"img": "AUTO",
+			"costs": {
+				"silver": 50
+			},
+			"cooldown": -1,
+			"description": "Enable you to deploy complex Pressure Plate Traps.\nThese traps are primarily armed with charges, which shoot poison, fire and more."
+		}, {
+			"tier": 1,
+			"slot": 1,
+			"row": 2,
+			"name": "Opportunistic Stab",
+			"img": "AUTO",
+			"costs": {
+				"silver": 100,
+				"stamina": 5
+			},
+			"cooldown": 10,
+			"description": "Dagger attack. If the enemy has the Pain or Confusion hex, this attack's damage and knockback are tripled. If it has both, it is 6 times stronger instead.",
+			"requires": ["Backstab"]
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Feather Dodge",
+			"img": "AUTO",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "Lowers the Stamina cost of dodging by 50% and allows you to dodge unimpeded even when wearing a backpack."
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Serpent's Parry",
+			"img": "AUTO",
+			"costs": {
+				"silver": 600,
+				"stamina": 7
+			},
+			"cooldown": 100,
+			"description": "Required: Dagger\nCounter a physical attack with a strong dagger strike. Targets afflicted by Confusion are briefly stunned. Targets afflicted by Pain will be inflicted Extreme Bleeding.",
+			"requires": ["Opportunist Stab"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Stealth Training",
+			"img": "AUTO",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Enemies will have a harder time spotting you.\nSprinting and having a light source will still easily alert them, though",
+			"exclusive": ["Pressure Plate Expertise"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Pressure Plate Expertise",
+			"img": "AUTO",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Increases the power of your Pressure Plate Traps.\nAllows reuse of Pressure Plates after they have been triggered, though they must be re-armed with another charge or compatible item.",
+			"exclusive": ["Stealth Training"]
+		}
+	],
+	"Rune Sage": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 2,
+			"name": "Rune: Dez",
+			"img": "Dez",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 2,
+			"description": "Blue rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 2,
+			"name": "Rune: Egoth",
+			"img": "Egoth",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 2,
+			"description": "Purple rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Rune: Fal",
+			"img": "Fal",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 2,
+			"description": "Green rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order."
+		}, {
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Rune: Shim",
+			"img": "Shim",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 2,
+			"description": "Red rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order."
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Well of Mana",
+			"img": "AUTO",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "Increases your maximum Mana by 40.",
+			"bonuses": {
+				"mana": 40
+			}
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Arcane Syntax",
+			"img": "AUTO",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Gain access to more advanced runic combos."
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Internalized Lexicon",
+			"img": "AUTO",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Removes the need to have an equipped Lexicon in your off-hand to cast runic spells.",
+			"requires": ["Arcane Syntax"],
+			"exclusive": ["Runic Prefix"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Runic Prefix",
+			"img": "AUTO",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "All runic spells are more powerful or have added effects",
+			"requires": ["Arcane Syntax"],
+			"exclusive": ["Internalized Lexicon"]
+		}
+	],
+	"Warrior Monk": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Focus",
+			"img": "AUTO",
+			"costs": {
+				"silver": 50,
+				"stamina": 4
+			},
+			"cooldown": 500,
+			"description": "Grants the discipline boon, which increases the physical damage of your attacks.\nUsing this skill burns a bit of your maximum stamina until the next time you sleep.\nCertain skills require this boon to be active."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Brace",
+			"costs": {
+				"silver": 50
+			},
+			"cooldown": 200,
+			"description": "Blocks an attack, restoring your stability and giving you the Discipline boon.\nAll nearby enemies are knocked back."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Slow Metabolism",
+			"costs": {
+				"silver": 50
+			},
+			"cooldown": -1,
+			"description": "It takes more time for you to become hungry, thirsty and sleepy."
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Steadfast Ascetic",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "Increases your maximum Stamina by 40.",
+			"is_breakthrough": true,
+			"bonuses": {
+				"stamina": 40
+			}
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Perfect Strike",
+			"costs": {
+				"silver": 600,
+				"stamina": 10
+			},
+			"cooldown": 30,
+			"description": "Required: Any Melee Weapon, Discipline Boon.\nLunging attack that ignores all defenses and inflicts Pain.",
+			"exclusive": ["Master of Motion"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Master of Motion",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 10.",
+			"exclusive": ["Perfect Strike"],
+			"bonuses": {
+				"impact": 10,
+				"ethereal": 10,
+				"decay": 10,
+				"lightning": 10,
+				"frost": 10,
+				"fire": 10
+			}
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Flash Onslaught",
+			"costs": {
+				"silver": 600,
+				"stamina": 25
+			},
+			"cooldown": 240,
+			"description": "Required: Any Melee Weapon, Discipline Boon\nAttack all enemies within a close distance with increased Damage and Impact. Using the skill consumes the Discipline boon.",
+			"exclusive": ["Counterstrike"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Counterstrike",
+			"costs": {
+				"silver": 600,
+				"stamina": 12
+			},
+			"cooldown": 100,
+			"description": "Required: Any Melee Weapon\nCompletely block a physical attack, striking the attacker and dealing high Damage.",
+			"exclusive": ["Flash Onslaught"]
+		}
+	],
+	"Wild Hunter": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Evasion Shot",
+			"costs": {
+				"silver": 50,
+				"stamina": 12
+			},
+			"cooldown": 30,
+			"description": "Shoot an arrow while jumping backwards. Causes the Cripple status effect on the target.\nLocking on foes is essential with this skill."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Enrage",
+			"costs": {
+				"silver": 50,
+				"health": 4
+			},
+			"cooldown": 500,
+			"description": "Grants the Rage boon, which increases the Impact of your attacks.\nUsing this skill burns a bit of your maximum health until the next time you sleep.\nCertain skills require this boon to be active."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Hunter's Eye",
+			"costs": {
+				"silver": 50
+			},
+			"cooldown": -1,
+			"description": "You can lock on enemies at longer distances when using a bow."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 2,
+			"name": "Sniper Shot",
+			"costs": {
+				"silver": 100,
+				"stamina": 15
+			},
+			"cooldown": 30,
+			"description": "Let loose a very strong arrow shot with a long windup, making it a poor option in the middle of combat."
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Survivor's Resilience",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "Increases your maximum health by 40.",
+			"is_breakthrough": true,
+			"bonuses": {
+				"health": 40
+			}
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Predator Leap",
+			"costs": {
+				"silver": 600,
+				"stamina": 13
+			},
+			"cooldown": 40,
+			"description": "Jumping attack that creates a shockwave upon landing, with high Impact and Damage.",
+			"exclusive": ["Piercing Shot"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Piercing Shot",
+			"costs": {
+				"silver": 600,
+				"stamina": 15
+			},
+			"cooldown": 30,
+			"description": "Required: Bow.\nStrong shot that goes through enemies and hits other foes behind. Inflicts Extreme Bleeding.",
+			"exclusive": ["Predator Leap"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Feral Strikes",
+			"costs": {
+				"silver": 600,
+				"stamina": 15
+			},
+			"cooldown": 8,
+			"description": "Required: Melee Weapon, Rage Boon\nAttack twice, consuming your Rage boon in the process. Inflicts Extreme Bleeding and Pain."
+		}
+	],
+	"Hex Mage": [
+		{
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Jinx",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 5,
+			"description": "Inflicts a random Hex debuff on the target."
+		}, {
+			"tier": 1,
+			"slot": 1,
+			"row": 2,
+			"name": "Nightmares",
+			"costs": {
+				"silver": 100
+			},
+			"cooldown": -1,
+			"description": "Reduces Max Mana burn from sleeping by 25%, reduces Max Stamina burn recovery by 25%"
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 2,
+			"name": "Torment",
+			"costs": {
+				"silver": 100,
+				"mana": 10
+			},
+			"cooldown": 10,
+			"description": "Triggers a related reaction in all nearby enemies afflicted with a Hex",
+			"requires": ["Jinx"]
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Bloodlust",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "For every death around the caster, recover 5 max Health, Stamina and Mana burn.",
+			"is_breakthrough": true
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Blood Sigil",
+			"costs": {
+				"silver": 600,
+				"mana": 7,
+				"other": "Dark Stone"
+			},
+			"cooldown": 0,
+			"description": "Consumes: Dark Stone\nCreate a magic circle on the ground. Certain skills have additional effects when cast within this circle.",
+			"exclusive": ["Rupture"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Rupture",
+			"costs": {
+				"silver": 600,
+				"mana": 10
+			},
+			"cooldown": 10,
+			"description": "Detonate all Hexes on nearby enemies, and all souls, for related damage.",
+			"exclusive": ["Blood Sigil"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Cleanse",
+			"costs": {
+				"silver": 600,
+				"other": "Mana Stone"
+			},
+			"cooldown": 0,
+			"description": "Requires 50% Corruption and a Mana Stone. Creates a Dark Stone, removes 30% Corruption, suffer Extreme Bleeding and 65 Decay Decay damage.",
+			"exclusive": ["Lockwell's Revelation"]
+		}, {
+			"tier": 3,
+			"slot": 3,
+			"row": 2,
+			"name": "Lockwell's Revelation",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Increases Elemental Damage by 15% when Tired, and 30% when Very Tired.",
+			"exclusive": ["Cleanse"]
+		}
+	],
+	"The Speedster": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Efficiency",
+			"costs": {
+				"silver": 50
+			},
+			"cooldown": -1,
+			"description": "Maximum Stamina increased by 25.",
+			"bonuses": {
+				"stamina": 25
+			}
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Probe",
+			"costs": {
+				"silver": 50,
+				"stamina": 0.75
+			},
+			"cooldown": 0.5,
+			"description": "A weak attack that increases Alertness level on hit. Evolves into stronger forms as Alertness level rises."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 2,
+			"name": "Metabolic Purge",
+			"costs": {
+				"silver": 100
+			},
+			"cooldown": -1,
+			"description": "Passive skill that increases Corruption resistance by 10%.",
+			"bonuses": {
+				"corruption": 10
+			}
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Daredevil",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "Reduce all skill Cooldowns by 10% per Alertness level.",
+			"is_breakthrough": true
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Prime",
+			"costs": {
+				"silver": 600,
+				"other": "2 Alertness levels"
+			},
+			"cooldown": 500,
+			"description": "Removes 2 Alertness levels, instantly resets the cooldown of the next skill used in the next 3 minutes."
+		}, {
+			"tier": 3,
+			"slot": 3,
+			"row": 1,
+			"name": "Unerring Read",
+			"costs": {
+				"silver": 600,
+				"other": "1 Alertness level"
+			},
+			"cooldown": 120,
+			"description": "Removes 1 Alertness levels, cancels the next hit received in the next 20 seconds."
+		}, {
+			"tier": 3,
+			"slot": 2,
+			"row": 2,
+			"name": "Blitz",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Increases Sprinting speed by 5% and running attack damage by 10% per Alertness level.",
+			"exclusive": ["Anticipation"]
+		}, {
+			"tier": 3,
+			"slot": 2,
+			"row": 2,
+			"name": "Anticipation",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Increases physical protection stat by 2 per Alertness level.",
+			"exclusive": ["Blitz"]
+		}
+	],
+	"Primal Ritualist": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Haunting Beat",
+			"costs": {
+				"silver": 50,
+				"stamina": 20
+			},
+			"cooldown": 120,
+			"description": "Required: Ghost Drums in inventory.\nDeploys the Ghost Drum and causes Haunted in a small radius. There can't be another Totem within 30 meters."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Welkin Ring",
+			"costs": {
+				"silver": 50,
+				"stamina": 20
+			},
+			"cooldown": 120,
+			"description": "Required: Sky Chimes in inventory. Deploys the Sky Chimes and causes Doom in a small radius. There can't be another Totem within 30 meters."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Miasmic Tolerance",
+			"costs": {
+				"silver": 50
+			},
+			"cooldown": -1,
+			"description": "Increase Status Effect resistance by 15% when well rested."
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Sacred Fumes",
+			"costs": {
+				"silver": 500,
+				"breakthrough": 1
+			},
+			"cooldown": -1,
+			"description": "Increases Barrier by 7.",
+			"is_breakthrough": true,
+			"bonuses": {
+				"barrier": 7
+			}
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Nurturing Echo",
+			"costs": {
+				"silver": 600,
+				"stamina": 20
+			},
+			"cooldown": 240,
+			"description": "Required: At least one deployed Totem within 15 meters.\n\nGenerates a bubble around nearby Totems that provide restoration of some kind. Lasts longer depending on how many Charges the Totem has built up.",
+			"exclusive": ["Reverberation"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Reverberation",
+			"costs": {
+				"silver": 600,
+				"stamina": 25
+			},
+			"cooldown": 10,
+			"description": "Required: Must be facing a Totem within 15 meters\n\nRecalls a deployed totem to your inventory, and generates a zone of recurring damage. The size, damage type and duration depend on the Totem and how many Charges it has built up.",
+			"exclusive": ["Nurturing Echo"]
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Harmony and Melody",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Allows you to have both a Sky Chimes totem and a Ghost Drums totem active in close proximity of each other at the same time."
+		}, {
+			"tier": 3,
+			"slot": 3,
+			"row": 2,
+			"name": "Battle Rhythm",
+			"costs": {
+				"silver": 600
+			},
+			"cooldown": -1,
+			"description": "Your deployed Sky Chimes increase Barrier by 5 and Ghost Drums increase Protection by 5 when within 8 meters. This bonus also applies to your allies."
+		}
+	],
+	"Weapon Master": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "The Technique",
+			"costs": {
+				"medal": 3,
+				"stamina": 12
+			},
+			"cooldown": 15,
+			"description": "A strong counter with high impact that inflicts Extreme Bleeding on yourself and the enemy."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Scalp Collector",
+			"costs": {
+				"medal": 3,
+				"stamina": 8
+			},
+			"cooldown": 30,
+			"description": "Inflicts Bleeding on hit. Finish off an enemy with this skill to gain the Kill Streak Buff, which grants bonus damage and speed."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Dispersion",
+			"costs": {
+				"medal": 3,
+				"stamina": 30
+			},
+			"cooldown": 120,
+			"description": "Create a highly damaging shockwave that destabilizes you. If your Weapon has an elemental imbue, it uses that element and inflicts the associated Hex on foes."
+		}, {
+			"tier": 1,
+			"slot": 1,
+			"row": 2,
+			"name": "Moment of Truth",
+			"costs": {
+				"medal": 3,
+				"stamina": 12
+			},
+			"cooldown": 15,
+			"description": "A highly damaging strike that bypasses 50% of enemy resistances. Lowers your own resistances by 50% for 15 seconds."
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 2,
+			"name": "Warrior's Vein",
+			"costs": {
+				"medal": 3,
+				"stmaina": 12
+			},
+			"cooldown": 60,
+			"description": "A strong counter with high impact that inflicts Extreme Bleeding on yourself and the enemy."
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Crescendo",
+			"costs": {
+				"medal": 3,
+				"stamina": 7
+			},
+			"cooldown": 3,
+			"description": "A quick strike that generates 1 stack of the Craze Buff on hit, which grants bonus damage. All stacks of Craze are lost if you are damaged."
+		}, {
+			"tier": 3,
+			"slot": 2,
+			"row": 1,
+			"name": "Vicious Cycle",
+			"costs": {
+				"medal": 3,
+				"stamina": 15
+			},
+			"cooldown": 120,
+			"description": "A high damage and high impact sweep that inflicts Cripple on enemies."
+		}, {
+			"tier": 3,
+			"slot": 3,
+			"row": 1,
+			"name": "Splitter",
+			"costs": {
+				"medal": 3,
+				"stamina": 15
+			},
+			"cooldown": 45,
+			"description": "A leaping strike that increases in power as the enemy's life % decreases, and uses the element infused on the weapon. You will evade all enemy attacks while performing this move."
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 2,
+			"name": "Strafing Run",
+			"costs": {
+				"medal": 3,
+				"stamina": 25
+			},
+			"cooldown": 100,
+			"description": "Run to the left or right while unleashing a storm of 5 arrows. Best used while locked onto a target."
+		}, {
+			"tier": 3,
+			"slot": 3,
+			"row": 2,
+			"name": "Vital Crash",
+			"costs": {
+				"medal": 3,
+				"stamina": 10
+			},
+			"cooldown": 60,
+			"description": "A long distance running tackle that does more damage the more Health % you have and more impact the more Stamina % you have. Inflicts Confusion and Pain on you."
+		}
+	],
+	"Specialist": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Brains",
+			"costs": {
+				"medal": 3
+			},
+			"cooldown": -1,
+			"description": "Increases Elemental Damage by 15%, but lowers physical damage by 25% and increases Stamina costs by 15%"
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Brawns",
+			"costs": {
+				"medal": 3
+			},
+			"cooldown": -1,
+			"description": "Increase Physical Damage by 25% and increase max stamina by 25, but lowers elemental damage by 40%."
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 2,
+			"name": "Unsealed",
+			"costs": {
+				"medal": 3
+			},
+			"cooldown": -1,
+			"description": "Speed up Sigil placement skills and extend the duration of Sigils by 20 seconds. Lower max life by 25."
+		}, {
+			"tier": 3,
+			"slot": 1,
+			"row": 1,
+			"name": "Patience",
+			"costs": {
+				"medal": 3
+			},
+			"cooldown": -1,
+			"description": "Increase damage from Weapon Skills by 30% but lower the damage from normal and special attacks by 20%"
+		}, {
+			"tier": 3,
+			"slot": 3,
+			"row": 1,
+			"name": "Acrobatics",
+			"costs": {
+				"medal": 3
+			},
+			"cooldown": -1,
+			"description": "Unhampered Dodge Rolls have increased range. Stamina cost of Dodge Rolls increased by 50%"
+		},{
+			"tier": 3,
+			"slot": 2,
+			"row": 2,
+			"name": "Cruelty",
+			"costs": {
+				"medal": 3
+			},
+			"cooldown": -1,
+			"description": "Increase damage of your Burning, Poison, Extreme poison by 50% and increase the damage of Bleeding, Extreme Bleeding, Blaze, Holy Blaze and Plague by 30%. Lower status resistances by 50% and Physical resistance by 10%."
+		}
+	],
+	"Quests Active": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Spark",
+			"costs": {
+				"mana": 5
+			},
+			"cooldown": 3,
+			"description": "Tiny fire explosion that deals negligible damage, but can be used in combination with other spells for greater effects.\nThis spell can light campfires.",
+			"quest": "Acquiring Mana"
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Infuse Blood",
+			"costs": {
+				"health": 20
+			},
+			"cooldown": 240,
+			"description": "Infuses your weapon with the Decay element, as well as Extreme Poison and Extreme bleeding. Leeches 10% of damage dealt into your HP. Costs 20 Life to activate.",
+			"quest": "Anthony Berthelot, Krypteia Scholar [Blue]"
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Infuse Light",
+			"costs": {
+				"mana": 12,
+				"other": "Blessed"
+			},
+			"cooldown": 0,
+			"description": "Temporarily adds lighting damage to your melee weapon, also making the weapon a useful light source. Consumes your Blessed boon.",
+			"quest": "Looking to the Future"
+		}, {
+			"tier": 1,
+			"slot": 4,
+			"row": 1,
+			"name": "Infuse Mana",
+			"costs": {
+				"mana": 35
+			},
+			"cooldown": 240,
+			"description": "Infuses your weapon with the Ethereal element.",
+			"quest": "Samantha Turnbull, Head Enchanter [Sorobor]"
+		}, {
+			"tier": 1,
+			"slot": 5,
+			"row": 1,
+			"name": "Possessed",
+			"costs": {
+				"mana": 8
+			},
+			"cooldown": 120,
+			"description": "Grants the Possessed boon, which increases your Decay Damage and Decay Resistance by 20%.\nCertain skills require this boon to be active",
+			"quest": "Friendly Immaculate"
+		}, {
+			"tier": 1,
+			"slot": 6,
+			"row": 1,
+			"name": "Chill Hex",
+			"costs": {
+				"mana": 5
+			},
+			"cooldown": 3,
+			"description": "Inflicts Chill on touch.",
+			"quest": "Skeleton at Wendigo Lair"
+		}, {
+			"tier": 1,
+			"slot": 7,
+			"row": 1,
+			"name": "Curse Hex",
+			"costs": {
+				"mana": 5
+			},
+			"cooldown": 3,
+			"description": "Inflicts Curse on touch.",
+			"quest": "Bloody Business"
+		}, {
+			"tier": 1,
+			"slot": 8,
+			"row": 1,
+			"name": "Pommel Counter",
+			"costs": {
+				"stamina": 10
+			},
+			"cooldown": 100,
+			"description": "Counter an attack with a high Impact strike using the sword's pommel. Inflicts Confusion and can chain into melee attacks.",
+			"quest": "Burac Carillon"
+		}, {
+			"tier": 1,
+			"slot": 9,
+			"row": 1,
+			"name": "Mist",
+			"costs": {
+				"mana": 8,
+				"silver": 50
+			},
+			"cooldown": 120,
+			"description": "Grants the Mist boon, which increases your Ethereal Damage and Ethereal Resistance. Certain skills require this boon to be active.",
+			"quest": "Cyril Turnbull"
+		}, {
+			"tier": 1,
+			"slot": 10,
+			"row": 1,
+			"name": "Flamethrower",
+			"costs": {
+				"silver": 50,
+				"mana": 15,
+				"other": "Equipped Lantern"
+			},
+			"cooldown": 5,
+			"description": "Required: Torch or Lantern\nShoots fire from the torch or lantern, which also inflicts the Burning status effect. This skill lowers the durability of the torch or lantern used.",
+			"quest": "First Watcher"
+		}, {
+			"tier": 1,
+			"slot": 11,
+			"row": 1,
+			"name": "Simeon's Gambit",
+			"costs": {
+				"silver": 50,
+				"stamina": 25
+			},
+			"cooldown": 100,
+			"description": "Deflect a melee attack and counter with a powerful strike. You will still strike if no attack was deflected, but for less damage.",
+			"quest": "King Simeon"
+		}, {
+			"tier": 1,
+			"slot": 12,
+			"row": 1,
+			"name": "Puncture",
+			"costs": {
+				"stamina": 12,
+				"silver": 50
+			},
+			"cooldown": 10,
+			"description": "Close combat attack which deals high Damage and Impact, and inflicts Pain.",
+			"quest": "Markus"
+		}, {
+			"tier": 1,
+			"slot": 13,
+			"row": 1,
+			"name": "Prismatic Flurry",
+			"costs": {},
+			"cooldown": 30,
+			"description": "Does an extra hit for each Elemental Boon active.",
+			"quest": "Mavith"
+		}, {
+			"tier": 1,
+			"slot": 14,
+			"row": 1,
+			"name": "Blessed",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 120,
+			"description": "Grants a Blessed boon, which increases your Lightning Damage and Lightning Resistance.\nCertain skills require this boon to be active.",
+			"quest": "Mofat"
+		}, {
+			"tier": 1,
+			"slot": 15,
+			"row": 1,
+			"name": "Talus Cleaver",
+			"costs": {
+				"silver": 50,
+				"stamina": 10
+			},
+			"cooldown": 30,
+			"description": "Low blow that reduces the target's mobility. Inflicts Pain and Cripple.",
+			"quest": "Oda"
+		}, {
+			"tier": 1,
+			"slot": 16,
+			"row": 1,
+			"name": "Haunt Hex",
+			"costs": {
+				"silver": 50,
+				"mana": 5
+			},
+			"cooldown": 3,
+			"description": "Inflicts Haunted on touch and 25 Impact Impact",
+			"quest": "Robyn Garnet, Alchemist"
+		}, {
+			"tier": 1,
+			"slot": 17,
+			"row": 1,
+			"name": "Execution",
+			"costs": {
+				"silver": 50,
+				"stamina": 12
+			},
+			"cooldown": 15,
+			"description": "High Damage and Impact strike that deals twice its Damage against knocked down foes.",
+			"quest": "Sagard Battleborn"
+		}, {
+			"tier": 1,
+			"slot": 18,
+			"row": 1,
+			"name": "Cool",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 120,
+			"description": "Grants the Cool boon, which increases your Frost Damage and Frost Resistance. It also increases your protection to hot weather.\nCertain skills require this boon to be active.",
+			"quest": "Second Watcher"
+		}, {
+			"tier": 1,
+			"slot": 19,
+			"row": 1,
+			"name": "Warm",
+			"costs": {
+				"silver": 50,
+				"mana": 8
+			},
+			"cooldown": 120,
+			"description": "Grants the Warm boon, which increases your Fire Damage and Fire Resistance. It also increases your protection to cold weather.\nCertain skills require this boon to be active.",
+			"quest": "Smooth"
+		}, {
+			"tier": 1,
+			"slot": 20,
+			"row": 1,
+			"name": "Juggernaut",
+			"costs": {
+				"silver": 50,
+				"stamina": 10
+			},
+			"cooldown": 20,
+			"description": "Slow but powerful melee attack that inflicts Confusion. Increases your Impact Resistance during this attack.",
+			"quest": "Soeran"
+		}, {
+			"tier": 1,
+			"slot": 21,
+			"row": 1,
+			"name": "Mace Infusion",
+			"costs": {
+				"silver": 50,
+				"stamina": 5
+			},
+			"cooldown": 20,
+			"description": "Block an elemental attack, infusing your weapon with that element.",
+			"quest": "Taleron"
+		}, {
+			"tier": 1,
+			"slot": 22,
+			"row": 1,
+			"name": "Scorch Hex",
+			"costs": {
+				"silver": 50,
+				"mana": 5
+			},
+			"cooldown": 3,
+			"description": "Inflicts Scorched on touch and 25 Impact Impact",
+			"quest": "The 9th Watcher"
+		}, {
+			"tier": 1,
+			"slot": 23,
+			"row": 1,
+			"name": "Moon Swipe",
+			"costs": {
+				"silver": 50,
+				"stamina": 15
+			},
+			"cooldown": 30,
+			"description": "Double attack that deals high damage, and that increases in power if you have the Rage or Discipline boons.",
+			"quest": "Wandering Mercenary"
+		}
+	],
+	"Quests Passive": [
+		{
+			"tier": 1,
+			"slot": 1,
+			"row": 1,
+			"name": "Acceptance",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases your Cold and Hot Weather Defense by 8.",
+			"quest": "Truth and Purpose",
+			"bonuses": {
+				"hot": 8,
+				"cold": 8
+			}
+		},
+		{
+			"tier": 1,
+			"slot": 2,
+			"row": 1,
+			"name": "Alchemical Experiment",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases all Damage you deal by 15%.",
+			"quest": "Mouths to Feed",
+			"bonuses": {
+				"dmg_percent": 15
+			}
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 1,
+			"name": "Ancestors' Memories",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases your Maximum Mana by 25",
+			"quest": "Whispering Bones",
+			"bonuses": {
+				"mana": 25
+			}
+		}, {
+			"tier": 1,
+			"slot": 4,
+			"row": 1,
+			"name": "Blood of Giants",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases your maximum Health by 40.",
+			"quest": "Ash Giants",
+			"bonuses": {
+				"health": 40
+			}
+		}, {
+			"tier": 1,
+			"slot": 5,
+			"row": 1,
+			"name": "Divine Assistance",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Reduces the Stamina and Mana costs of your actions by 10%.",
+			"quest": "Doubts and Secrets",
+			"bonuses": {}
+		}, {
+			"tier": 1,
+			"slot": 1,
+			"row": 2,
+			"name": "Elatt's Intervention",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases Barrier by 2 and Protection by 5",
+			"quest": "Paul, Disciple [Monsoon]",
+			"bonuses": {}
+		}, {
+			"tier": 1,
+			"slot": 2,
+			"row": 2,
+			"name": "Exalted",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Double all the Damage you deal. Reduce the Stamina and Mana costs of your actions by 30%. Increase all Damage Resistances by 10.\nYou are inflicted with the incurable Life Drain Sickness.",
+			"quest": "Hallowed Peacemaker",
+			"bonuses": {}
+		}, {
+			"tier": 1,
+			"slot": 3,
+			"row": 2,
+			"name": "Kirouac's Breakthrough",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases max Health by 25 and Physical damage by 15%.",
+			"quest": "Yan, Levantine Alchemist [Levant]",
+			"bonuses": {
+				"health": 25
+			}
+		}, {
+			"tier": 1,
+			"slot": 4,
+			"row": 2,
+			"name": "Logistics Expert",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Reduce all skill Cooldowns by 10%, increase movement speed by 5% and increase pouch capacity by 5.",
+			"quest": "Cloak and Dagger",
+			"bonuses": {}
+		}, {
+			"tier": 1,
+			"slot": 5,
+			"row": 2,
+			"name": "Painful Sacrifice",
+			"img": "Sacrifice",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Decreases your maximum Stamina by 15.",
+			"quest": "Questions and Corruption",
+			"bonuses": {
+				"stamina": -15
+			}
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 1,
+			"name": "Peacemaker Elixir",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases your maximum Health, Stamina and Mana by 20.",
+			"quest": "Success in Faction Quest-line",
+			"bonuses": {
+				"stamina": 20,
+				"mana": 20,
+				"health": 20
+			}
+		}, {
+			"tier": 2,
+			"slot": 2,
+			"row": 1,
+			"name": "Preferential Treatment",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Lower buying prices and increase selling prices.",
+			"quest": "Purifier",
+			"bonuses": {
+				"buy": -15,
+				"sell": 15
+			}
+		}, {
+			"tier": 2,
+			"slot": 3,
+			"row": 1,
+			"name": "Purified",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Decay Resistance +20%",
+			"quest": "Questions and Corruption",
+			"bonuses": {
+				"decay": 20
+			}
+		}, {
+			"tier": 2,
+			"slot": 4,
+			"row": 1,
+			"name": "Sacrifice",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Decreases your maximum Stamina by 7.",
+			"quest": "Questions and Corruption",
+			"bonuses": {
+				"stamina": -7
+			}
+		}, {
+			"tier": 2,
+			"slot": 5,
+			"row": 1,
+			"name": "Sanctified Assistance",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Reduces the Stamina and Mana costs of your actions by 5%.",
+			"quest": "Doubts and Secrets",
+			"bonuses": {
+				"stamina_cost_percent": 5,
+				"mana_cost_percent": 5
+			}
+		}, {
+			"tier": 2,
+			"slot": 1,
+			"row": 2,
+			"name": "Sanctified Protection",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases your Physical Protection by 2.",
+			"quest": "Truth and Purpose",
+			"bonuses": {
+				"protection": 2
+			}
+		}, {
+			"tier": 2,
+			"slot": 2,
+			"row": 2,
+			"name": "Spiritual Communion",
+			"costs": {},
+			"cooldown": -1,
+			"description": "Increases your Ethereal, Lightning and Decay damage by 10%.",
+			"quest": "Doubts and Secrets",
+			"bonuses": {
+				"dmg_eth_percent": 10,
+				"dmg_lgt_percent": 10,
+				"dmg_dec_percent": 10
+			}
+		}
+	]
+}

@@ -1,0 +1,248 @@
+[
+	{
+		"name": "Oil",
+		"icon": "oil.png",
+		"types": ["Unmarked", "Oil"],
+		"left": 259.6,
+		"bottom": 1129.6,
+		"auto_adjust": true
+	}, {
+		"name": "Rich Iron Vein",
+		"icon": "rich_iron.png",
+		"types": ["Unmarked", "Iron", "Rich Iron"],
+		"left": 575.3,
+		"bottom": 1325.4,
+		"auto_adjust": true
+	}, {
+		"name": "Rich Iron Vein",
+		"icon": "rich_iron.png",
+		"types": ["Unmarked", "Iron", "Rich Iron"],
+		"left": 1007.7,
+		"bottom": 560.8,
+		"auto_adjust": true
+	}, {
+		"name": "Sorobean Caravaneer",
+		"icon": "caravaneer.png",
+		"types": ["Unmarked", "Trader", "Sorobean Caravaneer"],
+		"left": 647.6,
+		"bottom": 1151.8,
+		"auto_adjust": true
+	}, {
+		"name": "Altar",
+		"icon": "altar.png",
+		"types": ["Unmarked", "Altar"],
+		"left": 213.2,
+		"bottom": 712.7,
+		"auto_adjust": true
+	}, {
+		"name": "Blue Sand",
+		"icon": "blue_sand.png",
+		"types": ["Unmarked", "Blue Sand"],
+		"left": 100.1,
+		"bottom": 618.1,
+		"auto_adjust": true
+	}, {
+		"name": "Ammolite",
+		"icon": "ammolite.png",
+		"types": ["Unmarked", "Ammolite"],
+		"left": 111.6,
+		"bottom": 433.4,
+		"auto_adjust": true
+	}, {
+		"name": "Blue Sand",
+		"icon": "blue_sand.png",
+		"types": ["Unmarked", "Blue Sand"],
+		"left": 125.4,
+		"bottom": 383.7,
+		"auto_adjust": true
+	}, {
+		"name": "Oil",
+		"icon": "oil.png",
+		"types": ["Unmarked", "Oil", "Inaccessible"],
+		"left": 610.7,
+		"bottom": 280.8,
+		"auto_adjust": true
+	}, {
+		"name": "Ammolite",
+		"icon": "ammolite.png",
+		"types": ["Unmarked", "Ammolite"],
+		"left": 630.4,
+		"bottom": 202.0,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 694.2,
+		"bottom": 210.2,
+		"auto_adjust": true
+	}, {
+		"name": "Ammolite",
+		"icon": "ammolite.png",
+		"types": ["Unmarked", "Ammolite"],
+		"left": 757.5,
+		"bottom": 172.3,
+		"auto_adjust": true
+	}, {
+		"name": "Blue Sand",
+		"icon": "blue_sand.png",
+		"types": ["Unmarked", "Blue Sand"],
+		"left": 788.1,
+		"bottom": 160.6,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 575.3,
+		"bottom": 1325.4,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 949.2,
+		"bottom": 747.7,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 1058.6,
+		"bottom": 778.3,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 971.8,
+		"bottom": 921.4,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 922.3,
+		"bottom": 963.7,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 881.0,
+		"bottom": 872.0,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 942.3,
+		"bottom": 902.6,
+		"auto_adjust": true
+	}, {
+		"name": "Mana Stone",
+		"icon": "mana_stone.png",
+		"types": ["Unmarked", "Mana Stone"],
+		"left": 920.0,
+		"bottom": 901.3,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 875.5,
+		"bottom": 1318.0,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 888.2,
+		"bottom": 1332.2,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 1051.0,
+		"bottom": 1290.8,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 1304.6,
+		"bottom": 1088.9,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 1654.5,
+		"bottom": 1097.2,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 1518.7,
+		"bottom": 1409.8,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 1517.5,
+		"bottom": 1747.6,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 1360.5,
+		"bottom": 1805.9,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 1330.7,
+		"bottom": 1786.2,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 1612.9,
+		"bottom": 1799.4,
+		"auto_adjust": true
+	}, {
+		"name": "Oil",
+		"icon": "oil.png",
+		"types": ["Unmarked", "Oil", "Inaccessible"],
+		"left": 1760.3,
+		"bottom": 1663.1,
+		"auto_adjust": true
+	}, {
+		"name": "Iron Vein",
+		"icon": "iron_vein.png",
+		"types": ["Unmarked", "Iron"],
+		"left": 1577.8,
+		"bottom": 1684.3,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 1027.8,
+		"bottom": 1747.8,
+		"auto_adjust": true
+	}, {
+		"name": "Salt",
+		"icon": "salt.png",
+		"types": ["Unmarked", "Salt"],
+		"left": 816.9,
+		"bottom": 1674.6,
+		"auto_adjust": true
+	}
+]

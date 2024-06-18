@@ -1,0 +1,63 @@
+[
+	{
+		"name": "Star Mushroom",
+		"icon": "star_mushroom.png",
+		"types": ["Unmarked", "Plant", "Mushroom"],
+		"top": 1487.5,
+		"left": 462.9
+	}, {
+		"name": "Blood Mushroom",
+		"icon": "blood_mushroom.png",
+		"types": ["Unmarked", "Plant", "Mushroom"],
+		"top": 1490.2,
+		"left": 464.1
+	}, {
+		"name": "Blood Mushroom",
+		"icon": "blood_mushroom.png",
+		"types": ["Unmarked", "Plant", "Mushroom"],
+		"top": 1489.3,
+		"left": 459.3
+	}, {
+		"name": "Firefly Trap",
+		"icon": "firefly_trap.png",
+		"types": ["Unmarked", "Plant", "Firefly"],
+		"top": 734.5,
+		"left": 197.7,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"top": 756.4,
+		"left": 260.3,
+		"auto_adjust": true
+	}, {
+		"name": "Marshmelon",
+		"icon": "Marshmelon.png",
+		"types": ["Unmarked", "Plant", "Marshmelon", "Food"],
+		"top": 673.5,
+		"left": 213.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"top": 582.7,
+		"left": 305.5,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"top": 615.9,
+		"left": 344.5,
+		"auto_adjust": true
+	}, {
+		"name": "Livweedi",
+		"icon": "livweedi.png",
+		"types": ["Unmarked", "Plant", "Livweedi"],
+		"top": 660.0,
+		"left": 360.5,
+		"auto_adjust": true
+	}
+]

@@ -1,0 +1,500 @@
+[
+	{
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 245.5,
+		"bottom": 1149.8,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 513.6,
+		"bottom": 1205.5,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 592.0,
+		"bottom": 1260.3,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 631.7,
+		"bottom": 1172.7,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 244.0,
+		"bottom": 801.9,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 131.6,
+		"bottom": 664.4,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 111.4,
+		"bottom": 600.2,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 113.0,
+		"bottom": 525.8,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 117.3,
+		"bottom": 433.2,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 109.2,
+		"bottom": 412.9,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed", "Inaccessible"],
+		"left": 258.1,
+		"bottom": 361.2,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 696.6,
+		"bottom": 193.5,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 758.1,
+		"bottom": 164.6,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 843.6,
+		"bottom": 72.8,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 1025.2,
+		"bottom": 360.5,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 954.7,
+		"bottom": 625.0,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 967.6,
+		"bottom": 761.2,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 1025.8,
+		"bottom": 794.8,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 1029.2,
+		"bottom": 851.0,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 1042.0,
+		"bottom": 907.7,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 984.5,
+		"bottom": 904.2,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 879.8,
+		"bottom": 904.4,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 878.0,
+		"bottom": 897.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 863.5,
+		"bottom": 894.9,
+		"auto_adjust": true
+	}, {
+		"name": "Gaberries",
+		"icon": "gaberries.png",
+		"types": ["Unmarked", "Plant", "Gaberries", "Food"],
+		"left": 944.9,
+		"bottom": 914.2,
+		"auto_adjust": true
+	}, {
+		"name": "Greasy Fern",
+		"icon": "greasy_fern.png",
+		"types": ["Unmarked", "Plant", "Greasy Fern"],
+		"left": 915.2,
+		"bottom": 897.1,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 981.2,
+		"bottom": 1095.7,
+		"auto_adjust": true
+	}, {
+		"name": "Turmmip",
+		"icon": "turmmip.png",
+		"types": ["Unmarked", "Plant", "Turmmip", "Food"],
+		"left": 1060.4,
+		"bottom": 1291.8,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 1084.8,
+		"bottom": 1278.4,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 1058.4,
+		"bottom": 1229.5,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 1109.1,
+		"bottom": 1163.1,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 1171.2,
+		"bottom": 1204.1,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1304.5,
+		"bottom": 1084.9,
+		"auto_adjust": true
+	}, {
+		"name": "Ghost Plant",
+		"icon": "ghost_plant.png",
+		"types": ["Unmarked", "Plant", "Ghost Plant"],
+		"left": 1329.2,
+		"bottom": 1248.3,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 1318.2,
+		"bottom": 1250.0,
+		"auto_adjust": true
+	}, {
+		"name": "Ghost Plant",
+		"icon": "ghost_plant.png",
+		"types": ["Unmarked", "Plant", "Ghost Plant"],
+		"left": 1294.3,
+		"bottom": 1250.4,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 1282.2,
+		"bottom": 1255.2,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye", "Inaccessible"],
+		"left": 1321.3,
+		"bottom": 1343.9,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye", "Inaccessible"],
+		"left": 1377.2,
+		"bottom": 1354.4,
+		"auto_adjust": true
+	}, {
+		"name": "Ghost Plant",
+		"icon": "ghost_plant.png",
+		"types": ["Unmarked", "Plant", "Ghost Plant"],
+		"left": 1394.6,
+		"bottom": 1402.5,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 1394.2,
+		"bottom": 1394.6,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 1400.9,
+		"bottom": 1411.9,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye", "Inaccessible"],
+		"left": 1404.3,
+		"bottom": 1401.4,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye", "Inaccessible"],
+		"left": 1477.3,
+		"bottom": 1473.3,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye", "Inaccessible"],
+		"left": 1418.7,
+		"bottom": 1526.4,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1378.6,
+		"bottom": 1567.2,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1402.0,
+		"bottom": 1579.2,
+		"auto_adjust": true
+	}, {
+		"name": "Nightmare Mushrooms",
+		"icon": "nightmare_mushrooms.png",
+		"types": ["Unmarked", "Plant", "Mushroom"],
+		"left": 1402.0,
+		"bottom": 1579.2,
+		"auto_adjust": true
+	}, {
+		"name": "Nightmare Mushrooms",
+		"icon": "nightmare_mushrooms.png",
+		"types": ["Unmarked", "Plant", "Mushroom"],
+		"left": 1501.4,
+		"bottom": 1778.7,
+		"auto_adjust": true
+	}, {
+		"name": "Ghost Plant",
+		"icon": "ghost_plant.png",
+		"types": ["Unmarked", "Plant", "Ghost Plant"],
+		"left": 1533.4,
+		"bottom": 1786.6,
+		"auto_adjust": true
+	}, {
+		"name": "Ghost Plant",
+		"icon": "ghost_plant.png",
+		"types": ["Unmarked", "Plant", "Ghost Plant"],
+		"left": 1424.6,
+		"bottom": 1803.9,
+		"auto_adjust": true
+	}, {
+		"name": "Nightmare Mushrooms",
+		"icon": "nightmare_mushrooms.png",
+		"types": ["Unmarked", "Plant", "Mushroom"],
+		"left": 1375.1,
+		"bottom": 1819.7,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 1331.2,
+		"bottom": 1693.0,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1326.7,
+		"bottom": 1682.6,
+		"auto_adjust": true
+	}, {
+		"name": "Pearlbird Nest",
+		"icon": "nest.png",
+		"types": ["Unmarked", "Nest", "Food", "Eggs"],
+		"left": 1611.0,
+		"bottom": 1804.4,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1710.2,
+		"bottom": 1780.6,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1733.6,
+		"bottom": 1769.4,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1737.3,
+		"bottom": 1749.3,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 1767.0,
+		"bottom": 1682.4,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1597.3,
+		"bottom": 1567.4,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 937.6,
+		"bottom": 1511.7,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 987.6,
+		"bottom": 1544.3,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 988.3,
+		"bottom": 1540.0,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 947.5,
+		"bottom": 1596.7,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1006.8,
+		"bottom": 1679.1,
+		"auto_adjust": true
+	}, {
+		"name": "Crabeye",
+		"icon": "crabeye.png",
+		"types": ["Unmarked", "Plant", "Crabeye"],
+		"left": 1031.4,
+		"bottom": 1651.9,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 1092.0,
+		"bottom": 1766.0,
+		"auto_adjust": true
+	}, {
+		"name": "Maize",
+		"icon": "maize.png",
+		"types": ["Unmarked", "Plant", "Maize", "Food"],
+		"left": 935.0,
+		"bottom": 1748.5,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 764.2,
+		"bottom": 1654.3,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 747.8,
+		"bottom": 1657.3,
+		"auto_adjust": true
+	}, {
+		"name": "Seaweed",
+		"icon": "seaweed.png",
+		"types": ["Unmarked", "Plant", "Seaweed"],
+		"left": 727.5,
+		"bottom": 1654.6,
+		"auto_adjust": true
+	}
+]

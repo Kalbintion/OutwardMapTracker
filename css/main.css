@@ -1,0 +1,319 @@
+:root {
+	/* --scrollbar-height, --scrollbar-width set by scrollbarSizing.js*/
+	--menu-height: 100px;
+	
+	--toolbar-btn-w: 2rem;
+	--toolbar-btn-h: 2rem;
+	
+	--magic--scrl-offset: 4px;
+	--magic--scrl-h: calc(var(--magic--scrl-offset) + var(--scrollbar-height));
+	--magic--scrl-w: calc(var(--magic--scrl-offset) + var(--scrollbar-width));
+}
+
+body {
+	background-color: rgba(45, 45, 0);
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/background.jpg);
+	background-position: center;
+	background-size: cover;
+	color: #FFF;
+	
+	cursor: url('../img/cursor.png'), auto;
+	
+	padding: 0;
+	margin: 0;
+}
+
+img.icon {
+	margin: 3px;
+	width: 18px;
+	height: 18px;
+}
+
+input {
+	width: 3rem;
+}
+
+/* TRACKER */
+div.tracker--zones {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	align-items: normal;
+	gap: 0.5rem;
+
+	background-color: rgba(0,0,0,0.5);
+	overflow-x: auto;
+	text-align: center;
+	
+	min-height: 100px;
+	max-height: 100px;
+}
+
+div.tabber--opt {
+	border: 1px solid black;
+	padding: 0.25rem;
+	width: 100px;
+}
+
+div.tabber--opt:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+div.tabber--opt.active {
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+@media screen and (width < calc((6 * (100px + 0.25rem)) + (5 * 0.5rem))) {
+	div.tracker--zones {
+		justify-content: normal;
+	}
+}
+
+div.tabber--icon img {
+	width: 100%;
+}
+
+div.map:not(.active) {
+	display: none;
+}
+
+/* MAPS */
+div.section.maps {
+	text-align: center;
+	overflow: auto;
+	width: 100%;
+	height: calc(100% - var(--menu-height));
+	min-height: 40ch;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.maps--container {
+	width: fit-content;
+	margin: 0 auto;
+}
+
+div.map {
+	position: relative;
+}
+
+div.map-overlays {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+div.location-group {
+	position: absolute;
+}
+
+div.location-group {
+	width: 150px;
+}
+
+div.icon {
+	text-align: center;
+}
+
+div.icon img {
+	width: 64px;
+	height: 64px;
+}
+
+div.icon.Unmarked img {
+	width: 32px;
+	height: 32px;
+}
+
+/* TOOLS */
+div.section.tools {
+	display: flex;
+	justify-content: center;
+}
+
+div.tools-btn {
+	margin: 0.25rem;
+	padding: 0.5rem 1rem;
+	background-image: url(../img/tex_men_buttonGenericNormal.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+div.tools-btn:hover {
+	background-image: url(../img/tex_men_buttonGenericPressed.png);
+}
+
+/* TOOLBAR */
+.maps--toolbar {
+	position: absolute;
+	left: 0;
+	top: var(--menu-height);
+	width:100%;
+	height:calc(100% - var(--menu-height));
+	pointer-events: none;
+}
+
+.toolbar--anchor {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 0;
+	bottom: 100%;
+	margin-bottom: 20px;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.toolbar button {
+	width: var(--toolbar-btn-w);
+	height: var(--toolbar-btn-h);
+	color: #000;
+	font-weight: 900;
+	vertical-align: text-top;
+}
+
+.toolbar--status {
+	display: inline-block;
+}
+
+.toolbar {
+	pointer-events: auto;
+	z-index: 4;
+	position: absolute;
+}
+
+.toolbar.top {
+	top: 0;
+}
+
+.toolbar.bottom {
+	bottom: var(--magic--scrl-h);
+}
+
+.toolbar.left {
+	left: 0;
+}
+
+.toolbar.right {
+	right: var(--magic--scrl-h);
+}
+
+.toolbar.vert {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+.toolbar.vert-r {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.toolbar.hor {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+.toolbar.hor-r {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.toolbar.bg-darken {
+	background-color: rgba(0,0,0,0.7);
+}
+
+.toolbar--status {
+	display: inline-block;
+}
+
+.toolbar button {
+	color: #FFF;
+	font-weight: 900;
+	background-image: url(../img/tex_men_buttonGenericNormal.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+	margin:0;
+	padding:0;
+}
+
+.toolbar button.toggle-pin {
+	width: 48px;
+	height: 48px;
+	padding: 0;
+}
+
+.toolbar button.inactive {
+	background-image: url(../img/tex_men_buttonGenericPressed.png);
+}
+
+.toolbar button:hover {
+	background-image: url(../img/tex_men_buttonGenericHover.png);
+}
+
+.toolbar button.btn-green {
+	color: green;
+}
+
+.toolbar button.btn-red {
+	color: red;
+}
+
+.toolbar button.btn-height-48 {
+	height: 48px;
+}
+
+.toolbar button img {
+	height: 100%;
+}
+
+.toolbar.vert-wrap {
+	flex-wrap: wrap;
+	max-height: 100%;
+}
+
+.toolbar.horz-wrap {
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+
+div.btn-grp {
+	display: inline;
+}
+
+div#toggle-pins {
+	max-width: calc(100% - 32px);
+	text-wrap: balance;
+	text-align: right;
+}
+
+/* FOOTER */
+div.section.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	z-index: -2;
+	background-image: url(../img/background_footer.png);
+	opacity: 0.75;
+	background-position: center;
+}

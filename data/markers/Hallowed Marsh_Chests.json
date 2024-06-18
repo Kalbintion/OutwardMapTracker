@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Supply Cache",
+		"icon": "supply_cache.png",
+		"types": ["Unmarked", "Chest", "Supply Cache"],
+		"top": 705.9,
+		"left": 195.4,
+		"auto_adjust": true
+	}
+]
